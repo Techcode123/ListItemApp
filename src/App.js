@@ -32,7 +32,7 @@ function App() {
       setQuantity([...quantity,state.quantity]);
       setPrice([...price,state.price]);
       setTotalprice([...totatprice,state.quantity*state.price]);      
-      // setState({item:"",quantity:"",price:""});
+      setState({item:"",quantity:"",price:""});
       setCount(count+1);
 
   }
